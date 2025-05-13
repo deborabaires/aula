@@ -26,6 +26,8 @@ export default function Index() {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Bem Vindo ao Clube de Golf.</Text>
+      <Text style={styles.text}>Seja membro!</Text>
+
       <View style={styles.imageContainer}>
         <ImageViewer imgSource={PlaceholderImage} selectedImage={selectedImage}/>
       </View>
